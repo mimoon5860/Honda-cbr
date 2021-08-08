@@ -1,0 +1,39 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+/* Some Raw Css */
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+.b-and-w{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+header{
+    background-color: #264653;
+}
+.bg-orange{
+    background-color: #E76F51;
+}
+.color-orange{
+    color:#E76F51;
+}
+.for-hyphen::after {
+    content: '';
+    width: 50px;
+    background-color: #E76F51;
+    height: 2px;
+    margin: 8px auto auto;
+    display: block;
+}
+.news-btn{
+    border: 1px solid #E76F51;
+}
+.news-btn:hover{
+    background-color: #E76F51;
+    color:white;
+}
+.footer-bg{
+    background-color: #0B0D17;
+}
